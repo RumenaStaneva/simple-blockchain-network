@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blockchain API</title>
+</head>
+
+<body>
+    <h1>Welcome to the Blockchain API</h1>
+    <a href="/blocks/all">View All Blocks</a>
+    <br><br>
+    <p>Find specific block:</p>
+    <input id="blockHashInput" type="text" placeholder="Enter Block Hash">
+    <button onclick="getBlockByHashInput()">Submit</button>
+
+    <script>
+        function getBlockByHashInput() {
+            const input = document.getElementById('blockHashInput');
+            const blockHash = input.value;
+            if (blockHash) {
+                window.location.href = `/block/${blockHash}`;
+                input.value = '';
+            }
+        }
+    </script>
+</body>
+
+</html>
