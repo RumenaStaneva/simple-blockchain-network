@@ -7,6 +7,7 @@ async function init() {
     await blocky.createBlock(Date.now(), [{ "name": "Mima" }, { "name": "Limuzina" }]);
     await blocky.createBlock(Date.now(), [{ "name": "Rumba" }, { "name": "Ninooo" }]);
 
+    blocky.listAllBlocks();
     blocky.validateChain();
     blocky.validateCurrentBlock();
     blocky.validatePenultimateBlock();

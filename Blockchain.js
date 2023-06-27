@@ -162,6 +162,18 @@ class Blockchain {
             console.error('Error validating current block:', error);
         }
     }
+
+    async listAllBlocks() {
+        try {
+            const blocks = await this.collection.find().toArray();
+
+            blocks.forEach((block) => console.log(block))
+
+            console.log('End of all blocks');
+        } catch (error) {
+            console.error('Error listing all blocks:', error);
+        }
+    }
 }
 
 module.exports = { Blockchain };
