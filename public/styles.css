@@ -1,0 +1,50 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+a {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+p {
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
