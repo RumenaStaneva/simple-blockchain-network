@@ -1,6 +1,6 @@
 # Simple Blockchain network
 
-## How to start the project :crystal_ball
+## How to start the project
 
 ### Use the following commands
 
